@@ -4,6 +4,7 @@ import com.carloslopez.studentsystem.model.Student;
 import com.carloslopez.studentsystem.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@org.springframework.stereotype.Service
 public class StudentService implements Service{
     /*This will inject the studentRepo into our studentService class so we can use it*/
     @Autowired
