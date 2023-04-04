@@ -12,7 +12,6 @@ public class StudentService implements Service{
     @Override
     public Student saveStudent(Student student) {
 
-
-        return null;
+        return studentRepo.save(student);
     }
 }
